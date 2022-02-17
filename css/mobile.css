@@ -1,0 +1,24 @@
+:root {
+    --white: #fff;
+    --light-green: #89BA77;
+    --dark-green: #1F7300;
+    --dark-red: #73001F;
+    --light-red: #FA5252;
+    
+    
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: "Calibri", "DM Sans", sans-serif;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    background-color: var(--light-green);
+  }
