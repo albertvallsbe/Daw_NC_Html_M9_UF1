@@ -2,7 +2,7 @@
 
 - 01/02/22 Enllaçat AV
 - 01/02/22 Membres del grup:
-- - Josep Maria Boza -> JB
+- - Josep Maria Boza -> JMB
 - - Anna Masana -> AM
 - - Albert Valls -> AV
 - 01/02/22 Inici Repositori de classe 
