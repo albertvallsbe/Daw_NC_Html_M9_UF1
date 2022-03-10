@@ -9,82 +9,121 @@
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 
-<body>
-    <header class="header">
+<body style="text-align: center;">
+    <header class="header" style="background-color: aquamarine;">
         <div class="header-logo" style="text-align: center;">
-            <img src="logo.png" alt="" height="60" width="100px">
+            <img src="logo.png" alt="" height="100" width="250px">
         </div>
-        <div class="header-menu" style="justify-content: space-around;text-align: center;">
-            <input type="button" value="Fruita" style="width: 20px; padding: auto;">
-            <input type="button" value="Verdura">
-            <input type="button" value="Receptes">
-            <input type="button" value="Qui som?">
+        <div class="header-menu" style="text-align: center; background-color: black;">
+            <input type="button" value="Fruita" style="width: 70px; margin-right: 40px; background-color: red; color: yellow;">
+            <input type="button" value="Verdura" style="width: 70px; margin-right: 40px;background-color: red; color: yellow;">
+            <input type="button" value="Receptes" style="width: 70px; margin-right: 40px;background-color: red; color: yellow;">
+            <input type="button" value="Qui som?" style="width: 70px;background-color: red; color: yellow;">
         </div>
 
     </header>
-    <main>
+    <main style="position: relative;">
         <section class="section1">
             <div class="oferta-dia">
-                <div class="of-dia1">
-                    <h3>nom producte</h3><br>
-                    <img src="oferta1.png" alt="" height="150px" width="150px"><br>
-                    <p>descripció producte 1</p>
-                </div>
-                <div class="of-dia2">
-                    <h3>nom producte</h3><br>
-                    <img src="oferta2.png" alt="" height="150px" width="150px"><br>
-                    <p>descripció producte 2</p>
-                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="of-dia1">
+                                <h3>nom producte</h3><br>
+                                <img src="oferta1.png" alt="" height="250px" width="400px"><br>
+                                <p>descripció producte 1</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="of-dia2">
+                                <h3>nom producte</h3><br>
+                                <img src="oferta2.png" alt="" height="250px" width="400px"><br>
+                                <p>descripció producte 2</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="temp">
+                                <select name="temporada" id="temp">
+                                    <option value="Gener"><img src="alimentsdegener.png" alt="Taula Aliments Gener" height="300px"
+                                            width="300px">Gener</option>
+                                    <option value="Febrer"><img src="alimentsdefebrer.png" alt="Taula Aliments Febrer" height="300px"
+                                            width="300px">Febrer</option>
+                                    <option value="Març"><img src="alimentsdemarc.png" alt="Taula Aliments Març" height="300px"
+                                            width="300px">Març</option>
+                                    <option value="Abril"><img src="alimentsdabril.png" alt="Taula Aliments Abril" height="300px"
+                                            width="300px">Abril</option>
+                                    <option value="Maig"><img src="alimentsdemaig.png" alt="Taula Aliments Maig" height="300px"
+                                            width="300px">Maig</option>
+                                    <option value="Juny"><img src="alimentsdejuny.png" alt="Taula Aliments Juny" height="300px"
+                                            width="300px">Juny</option>
+                                    <option value="Juliol"><img src="alimentsdejuliol.png" alt="Taula Aliments Juliol" height="300px"
+                                            width="300px">Juliol</option>
+                                    <option value="Agost"><img src="alimentsdagost.png" alt="Taula Aliments Agost" height="300px"
+                                            width="300px">Agost</option>
+                                    <option value="Setembre"><img src="alimentsdesetembre.png" alt="Taula Aliments Setembre"
+                                            height="300px" width="300px">Setembre</option>
+                                    <option value="Octubre"><img src="alimentsdeoctubre.png" alt="Taula Aliments Octubre" height="300px"
+                                            width="300px">Octubre</option>
+                                    <option value="Novembre"><img src="alimentsdenovembre.png" alt="Taula Aliments Novembre"
+                                            height="300px" width="300px">Novembre</option>
+                                    <option value="Desembre"><img src="alimentsdedesembre.png" alt="Taula Aliments Desembre"
+                                            height="300px" width="300px">Desembre</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="oferta-semana">
                 <div class="of-sem-1.2">
-                    <div class="ofs1">
-                        <h3>nom producte</h3><br>
-                        <img src="oferta.sem1.png" alt="" height="50px" width="50px"><br>
-                        <p>descripció producte 1</p>
-                    </div>
-                    <div class="ofs2">
-                        <h3>nom producte</h3><br>
-                        <img src="oferta-sem2.png" alt="" height="50px" width="50px"><br>
-                        <p>descripció producte 2</p>
-                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="ofs1">
+                                    <h3>nom producte</h3><br>
+                                    <img src="oferta.sem1.png" alt="" height="100px" width="250px"><br>
+                                    <p>descripció producte 1</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ofs2">
+                                    <h3>nom producte</h3><br>
+                                    <img src="oferta-sem2.png" alt="" height="100px" width="250px"><br>
+                                    <p>descripció producte 2</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="ofs3">
+                                    <h3>nom producte</h3><br>
+                                    <img src="oferta-sem3.png" alt="" height="100px" width="250px"><br>
+                                    <p>descripció producte 1</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ofs4">
+                                    <h3>nom producte</h3><br>
+                                    <img src="oferta-sem4.png" alt="" height="100px" width="250px"><br>
+                                    <p>descripció producte 4</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="of-sem-3.4">
-                    <div class="ofs3">
-                        <h3>nom producte</h3><br>
-                        <img src="oferta-sem3.png" alt="" height="50px" width="150px"><br>
-                        <p>descripció producte 1</p>
-                    </div>
-                    <div class="ofs4">
-                        <h3>nom producte</h3><br>
-                        <img src="oferta-sem4.png" alt="" height="50px" width="50px"><br>
-                        <p>descripció producte 4</p>
-                    </div>
+                    
+                    
                 </div>
             </div>
         </section>
         <section class="section2">
-            <div class="receta">
-                <h3>nombrereceta</h3><br>
-                <p>receta</p>
-                <img src="imagenreceta.png" alt="">
+            <div class="recepta">
+                <h3>nomrecepta</h3><br>
+                <p>recepta</p>
+                <img src="imagenreceta.png" alt="Recepta del dia" height="100px" width="250px">
             </div>
-            <div class="temp">
-                <select name="temporada" id="temp">
-                <option value="Gener"><img src="alimentsdegener.png" alt=""></option>
-                <option value="Febrer"><img src="alimentsdefebrer.png" alt=""></option>
-                <option value="Març"><img src="alimentsdemarc.png" alt=""></option>
-                <option value="Abril"><img src="alimentsdabril.png" alt=""></option>
-                <option value="Maig"><img src="alimentsdemaig.png" alt=""></option>
-                <option value="Juny"><img src="alimentsdejuny.png" alt=""></option>
-                <option value="Juliol"><img src="alimentsdejuliol.png" alt=""></option>
-                <option value="Agost"><img src="alimentsdagost.png" alt=""></option>
-                <option value="Setembre"><img src="alimentsdesetembre.png" alt=""></option>
-                <option value="Octubre"><img src="alimentsdeoctubre.png" alt=""></option>
-                <option value="Novembre"><img src="alimentsdenovembre.png" alt=""></option>
-                <option value="Desembre"><img src="alimentsdedesembre.png" alt=""></option>
-            </select>
-            </div>
+            
         </section>
     </main>
     <footer class="footer">
