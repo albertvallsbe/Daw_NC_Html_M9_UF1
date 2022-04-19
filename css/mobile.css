@@ -4,21 +4,75 @@
     --dark-green: #1F7300;
     --dark-red: #73001F;
     --light-red: #FA5252;
-    
-    
   }
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
   html {
     font-size: 62.5%;
     font-family: "Calibri", "DM Sans", sans-serif;
+  }
+
+  header, footer{
+    background-color: aquamarine;
+  }
+  .header-logo{
+    text-align: center;
+  }
+  .logo{
+    height:100px;
+    width:250px;
+  }
+  .header-menu{
+    text-align: center; 
+    background-color: black;
+  }
+  .menu-buttons{
+    width: 70px; 
+    margin-right: 40px; 
+    background-color: red; 
+    color: yellow;
   }
 
   main {
     width: 100%;
     height: auto;
     background-color: var(--light-green);
+    position: relative;
+    
+  }
+
+  .images{
+    height:150px;
+    width:200px;
+  }
+  .ofertas{
+    display: flex;
+  }
+
+  .oferta-dia{
+    display:flex;
+  }
+
+  .of-sem-1_2{
+    display:flex;
+  }
+  .of-sem-3_4{
+    display:flex;
+  }
+  .recepta-temp{
+    display: flex;
+  }
+  .recepta{
+    display:flex;
+  }
+  p{
+    text-align: center;
+  }
+  .img-rs{
+    height:20px;
+    width:20px;
   }
