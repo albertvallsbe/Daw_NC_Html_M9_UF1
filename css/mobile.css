@@ -57,7 +57,7 @@ main {
 }
 
 main div{
-  padding: 1rem;
+  padding: 1%;
 }
 
 .oferta-dia {
@@ -74,10 +74,9 @@ main div{
 
 .images {
   width: 100%;
-
 }
 
-images:hover{
+.images:hover{
   transform: scale(1.5);
 }
 
@@ -87,12 +86,12 @@ input[type=checkbox] {
 
 .calendari-fruita img{
 margin: 1%;
-width: 30%;
+width: 80%;
 transition: transform 0.25s ease;
 cursor: zoom-in;
 }
 
-input[type=checkbox] :checked ~ label > img{
-  transform: scale(2);
+input[type=checkbox]:checked ~ label > img{
+  transform: scale(4);
   cursor: zoom-out;
 }
