@@ -81,10 +81,12 @@ main div{
 
 .oferta-dia {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .oferta-semana {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .recepta-temp{
