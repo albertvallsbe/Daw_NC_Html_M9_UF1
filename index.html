@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 750px)" />
 </head>
 
 <body>
@@ -15,10 +16,14 @@
             <img class="logo" src="images/logo.jpg" alt="">
         </div>
         <div class="header-menu">
-            <input class="menu-buttons" type="button" value="Fruita">
-            <input class="menu-buttons" type="button" value="Verdura">
-            <input class="menu-buttons" type="button" value="Receptes">
-            <input class="menu-buttons" type="button" value="Qui som?">
+            <div><input class="menu-buttons" type="button" value="Fruita"></div>
+            <div><input class="menu-buttons" type="button" value="Verdura"></div>
+            <div><input class="menu-buttons" type="button" value="Receptes"></div>
+            <div><input class="menu-buttons" type="button" value="Qui som?"></div>
+
+
+
+
         </div>
     </header>
     <main>
@@ -72,14 +77,14 @@
             <div>
                 <img class="images" src="images/imagenreceta.jpg" alt="">
             </div>
-        
-        <div class="calendari-fruita">
-            <input type="checkbox" id="zoomCheck">
-            <label for="zoomCheck">
-                <img src="images/calendari-fruita-verdura.jpg" alt="Calendari fruites i verdures de temporada">
-            </label>
+
+            <div class="calendari-fruita">
+                <input type="checkbox" id="zoomCheck">
+                <label for="zoomCheck">
+                    <img src="images/calendari-fruita-verdura.jpg" alt="Calendari fruites i verdures de temporada">
+                </label>
+            </div>
         </div>
-    </div>
     </main>
     <footer class="footer">
         <img class="img-rs" src="rs1.png" alt="">
@@ -87,4 +92,5 @@
         <img class="img-rs" src="rs3.png" alt="">
     </footer>
 </body>
+
 </html>

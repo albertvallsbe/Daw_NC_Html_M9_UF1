@@ -1,0 +1,14 @@
+.header-menu {
+  min-height: 30px;
+}
+
+.header-menu div {
+  min-width: 25%;
+  max-height: 100%;
+}
+.header-menu div input {
+  min-width: 120px;
+}
+.menu-buttons {
+  vertical-align: middle;
+}
