@@ -149,6 +149,15 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked ~ label > img {
-  transform: scale(4);
+  transform: scale(3);
   cursor: zoom-out;
+}
+
+.img-rs{
+  margin: 1%;
+  max-width: 30px;
+}
+
+#calendariImg {
+  width: 56%;
 }
