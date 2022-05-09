@@ -88,18 +88,18 @@ main div{
   width: 100%;
   min-width: 250px;
   height: auto;
-  padding: 1.5% 1%;
+  padding: 0.5%;
   /* temporal */
   background-color: blue;
 }
 
 .product-detail--card {
-  width: 95%;
+  width: 100%;
   min-width: 250px;
-  max-width: 300px;
+  max-width: 95%;
   min-height: 150px;
-  margin: 1.5% auto;
-  padding: 1.5%;
+  margin: 0.5%;
+  padding: 0.5%;
   /* temporal */
   background-color: var(--proves);
 }

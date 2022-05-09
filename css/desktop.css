@@ -22,8 +22,23 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0% auto;
+  
+  padding: 0.5%;
+  margin: 0.5%;
+  justify-content: center;
 }
+
+.product-detail--card {
+  width: 100%;
+  max-width: 45%;
+  min-height: 150px;
+  
+  padding: 0.5%;
+  margin: 0.5%;
+  /* temporal */
+  background-color: yellowgreen;
+}
+
 /*
 .oferta-dia {
   display: flex;
