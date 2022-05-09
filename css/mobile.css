@@ -93,7 +93,7 @@ main div{
 .product-detail--card {
   width: 100%;
   min-width: 250px;
-  max-width: 95%;
+  max-width: 98%;
   min-height: 150px;
   margin: 0.5%;
   border: solid 0.2rem var(--dark-red);
