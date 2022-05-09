@@ -1,10 +1,9 @@
 :root {
   --white: #fff;
-  --light-green: #89BA77;
-  --dark-green: #1F7300;
-  --dark-red: #73001F;
-  --light-red: #FA5252;
-  --proves: orange;
+  --light-green: #89ba77;
+  --dark-green: #1f7300;
+  --dark-red: #73001f;
+  --light-red: #fa5252;
 }
 
 * {
@@ -18,7 +17,7 @@ html {
   font-family: "Calibri", "DM Sans", sans-serif;
 }
 
-body{
+body {
   min-width: 280px;
 }
 
@@ -48,19 +47,17 @@ footer {
 .header-menu div {
   min-width: 50%;
   max-height: 30px;
-  
 }
 
 .header-menu div input {
   align-items: center;
   min-width: 90px;
-  
 }
 
 .menu-buttons {
   margin: 2px;
   align-items: center;
-  
+
   /*margin-right: 40px;*/
   background-color: var(--light-green);
   color: var(--white);
@@ -76,11 +73,11 @@ main {
   background-color: var(--white);
 }
 */
-/* 
+
 main div{
   padding: 1%;
 }
-*/
+
 /* ---------------- */
 /* Nova versió */
 .main-product-detail {
@@ -90,7 +87,7 @@ main div{
   height: auto;
   padding: 0.5%;
   /* temporal */
-  background-color: blue;
+  background-color: lightseagreen;
 }
 
 .product-detail--card {
@@ -99,9 +96,10 @@ main div{
   max-width: 95%;
   min-height: 150px;
   margin: 0.5%;
+  border: solid 0.2rem var(--dark-red);
   padding: 0.5%;
   /* temporal */
-  background-color: var(--proves);
+  background-color: lightgray;
 }
 
 /* ----------------- */
@@ -122,26 +120,35 @@ main div{
   display: flex;
 }
 */
+.of-dia, .of-setmana {
+  display:inline-block;
+  max-width: 49%;
+  /*justify-content: center;*/
+  vertical-align: top;
+ 
+  padding: 0.5%;
+  margin: 0.5% auto;
+}
 .images {
   width: 100%;
 }
 
-.images:hover{
+.images:hover {
   transform: scale(1.5);
 }
 
-input[type=checkbox] {
-  display:none;
+input[type="checkbox"] {
+  display: none;
 }
 
-.calendari-fruita img{
-margin: 1%;
-width: 80%;
-transition: transform 0.25s ease;
-cursor: zoom-in;
+.calendari-fruita img {
+  margin: 1%;
+  width: 80%;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
 }
 
-input[type=checkbox]:checked ~ label > img{
+input[type="checkbox"]:checked ~ label > img {
   transform: scale(4);
   cursor: zoom-out;
 }
