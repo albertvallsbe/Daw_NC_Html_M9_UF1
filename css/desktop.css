@@ -15,12 +15,23 @@
   vertical-align: middle;
 }
 
+/* Secció Main */
+
+/* Nova Versió */
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0% auto;
+}
+/*
 .oferta-dia {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .oferta-semana {
   display: flex;
-  flex-wrap: nowrap;
-}
+  flex-wrap: wrap;
+}*/
+

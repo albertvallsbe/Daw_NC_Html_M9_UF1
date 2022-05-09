@@ -27,34 +27,34 @@
         </div>
     </header>
     <main>
-        <div class="ofertas">
-            <div class="oferta-dia">
-                <div class="of-dia1">
-                    <h3>nom producte del dia_1</h3>
-                    <img class="images" src="images/calcots.jpg" alt="">
-                    <p>descripció producte 1</p>
-                </div>
-                <div class="of-dia2">
-                    <h3>nom producte del dia_2</h3>
-                    <img class="images" src="images/pebrot.jpg" alt="">
-                    <p>descripció producte 2</p>
-                </div>
-            </div>
-
-            <div class="oferta-semana">
-                <div class="of-sem-1_2">
+        <section class="main-product-detail">
+            <section class="product-cards--container">
+                <article class="product-detail--card">
+                    <div class="of-dia1">
+                        <h3>nom producte del dia_1</h3>
+                        <img class="images" src="images/calcots.jpg" alt="">
+                        <p>descripció producte 1</p>
+                    </div>
+                    <!-- temporal 
+                    <div class="of-dia2">
+                        <h3>nom producte del dia_2</h3>
+                        <img class="images" src="images/pebrot.jpg" alt="">
+                        <p>descripció producte 2</p>
+                    </div>
+                -->
+                </article>
+                <article class="product-detail--card">
                     <div class="ofs1">
                         <h3>nom producte oferta 1</h3>
                         <img class="images" src="images/tomaquet.jpg" alt="">
                         <p>descripció producte 1</p>
                     </div>
+                    <!-- temporal
                     <div class="ofs2">
                         <h3>nom producte oferta 2</h3>
                         <img class="images" src="images/pera.jpg" alt="">
                         <p>descripció producte 2</p>
                     </div>
-                </div>
-                <div class="of-sem-3_4">
                     <div class="ofs3">
                         <h3>nom producte oferta 3</h3>
                         <img class="images" src="images/cirera.jpg" alt="">
@@ -65,26 +65,33 @@
                         <img class="images" src="images/carxofa.jpg" alt="">
                         <p>descripció producte 4</p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="recepta-temp">
-            <div class="recepta">
-                <h3>nomrecepta</h3>
+                -->
+                </article>
+                <article class="product-detail--card">
+                    <div >
+                        <div class="recepta">
+                            <h3>nomrecepta</h3>
+                            <p>recepta</p>
+                        </div>
+                        <div>
+                            <img class="images" src="images/imagenreceta.jpg" alt="">
+                        </div>
+                    </div>
+                </article>
+                <article class="product-detail--card">
+                    <div >
+                        <input type="checkbox" id="zoomCheck">
+                        <label for="zoomCheck">
+                            <!-- temporal
+                            <img src="images/calendari-fruita-verdura.jpg"
+                                alt="Calendari fruites i verdures de temporada">
+                            -->
+                        </label>
+                    </div>
+                </article>
+            </section>
+        </section>
 
-                <p>recepta</p>
-            </div>
-            <div>
-                <img class="images" src="images/imagenreceta.jpg" alt="">
-            </div>
-
-            <div class="calendari-fruita">
-                <input type="checkbox" id="zoomCheck">
-                <label for="zoomCheck">
-                    <img src="images/calendari-fruita-verdura.jpg" alt="Calendari fruites i verdures de temporada">
-                </label>
-            </div>
-        </div>
     </main>
     <footer class="footer">
         <img class="img-rs" src="rs1.png" alt="">
