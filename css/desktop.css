@@ -42,14 +42,13 @@
   /* temporal */
   background-color: lightpink;
 }
-/*
-.oferta-dia {
-  display: flex;
-  flex-wrap: wrap;
+
+.fruites, .verdures {
+  max-width: 24%;
 }
 
-.oferta-semana {
-  display: flex;
-  flex-wrap: wrap;
-}*/
-
+.receptes,
+.resum {
+  width: 24%;
+  display: inline-block;
+}

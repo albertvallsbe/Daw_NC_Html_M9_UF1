@@ -16,6 +16,18 @@ html {
   font-size: 62.5%;
   font-family: "Calibri", "DM Sans", sans-serif;
 }
+/* --- FONT SIZE --- */
+h3 {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+p{
+  font-size: 1.5rem;
+  padding: .2rem;
+}
+
+/* ---- */
 
 body {
   min-width: 280px;
@@ -57,8 +69,6 @@ footer {
 .menu-buttons {
   margin: 2px;
   align-items: center;
-
-  /*margin-right: 40px;*/
   background-color: var(--light-green);
   color: var(--white);
   border-color: var(--dark-red);
@@ -66,20 +76,13 @@ footer {
   font-size: 1.5rem;
   padding: 0.6% 3%;
 }
-/*
-main {
-  width: 100%;
-  height: auto;
-  background-color: var(--white);
-}
-*/
 
 main div{
   padding: 1%;
 }
 
 /* ---------------- */
-/* Nova versió */
+
 .main-product-detail {
   position: relative;
   width: 100%;
@@ -103,32 +106,15 @@ main div{
 }
 
 /* ----------------- */
-/*
-.oferta-dia {
-  display: flex;
-  flex-wrap: wrap;
-}
-*/
-/*
-.oferta-setmana {
-  display: flex;
-  flex-wrap: wrap;
-}
-*/
-/*
-.recepta-temp{
-  display: flex;
-}
-*/
-.of-dia, .of-setmana {
+
+.fruites, .verdures, .of-dia, .of-setmana {
   display:inline-block;
   max-width: 49%;
-  /*justify-content: center;*/
   vertical-align: top;
- 
   padding: 0.5%;
   margin: 0.5% auto;
 }
+
 .images {
   width: 100%;
 }
@@ -160,4 +146,27 @@ input[type="checkbox"]:checked ~ label > img {
 
 #calendariImg {
   width: 56%;
+}
+
+.recepta,
+.verdura,
+.fruita{
+  width: 100%;
+}
+
+.indexReceptes--card,
+.verdures--card,
+.fruites--card {
+  width: 100%;
+  margin: 0.5%;
+  border: solid 0.2rem var(--dark-red);
+  padding: 0.5%;
+  /* temporal */
+  background-color: lightgray;
+}
+
+.receptes,
+.resum {
+  width: 49%;
+  display: inline-block;
 }
