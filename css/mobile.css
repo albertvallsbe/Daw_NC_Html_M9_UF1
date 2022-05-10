@@ -1,71 +1,72 @@
 :root {
-  --white: #fff;
-  --light-green: #89ba77;
-  --dark-green: #1f7300;
-  --dark-red: #73001f;
-  --light-red: #fa5252;
+    --white: #fff;
+    --light-green: #89ba77;
+    --dark-green: #1f7300;
+    --dark-red: #73001f;
+    --light-red: #fa5252;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  font-size: 62.5%;
-  font-family: "Calibri", "DM Sans", sans-serif;
+    font-size: 62.5%;
+    font-family: "Calibri", "DM Sans", sans-serif;
 }
 
 body {
-  min-width: 280px;
+    min-width: 280px;
 }
 
 header,
 footer {
-  background-color: var(--light-green);
+    background-color: var(--light-green);
 }
 
 .header-logo {
-  text-align: center;
+    text-align: center;
 }
 
 .logo {
-  height: 100px;
-  width: 250px;
+    height: 100px;
+    width: 250px;
 }
 
 .header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  background-color: var(--dark-green);
-  min-height: 60px;
-  vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: var(--dark-green);
+    min-height: 60px;
+    vertical-align: middle;
 }
 
 .header-menu div {
-  min-width: 50%;
-  max-height: 30px;
+    min-width: 50%;
+    max-height: 30px;
 }
 
 .header-menu div input {
-  align-items: center;
-  min-width: 90px;
+    align-items: center;
+    min-width: 90px;
 }
 
 .menu-buttons {
-  margin: 2px;
-  align-items: center;
-
-  /*margin-right: 40px;*/
-  background-color: var(--light-green);
-  color: var(--white);
-  border-color: var(--dark-red);
-  border-radius: 2rem;
-  font-size: 1.5rem;
-  padding: 0.6% 3%;
+    margin: 2px;
+    align-items: center;
+    /*margin-right: 40px;*/
+    background-color: var(--light-green);
+    color: var(--white);
+    border-color: var(--dark-red);
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: 0.6% 3%;
 }
+
+
 /*
 main {
   width: 100%;
@@ -74,90 +75,102 @@ main {
 }
 */
 
-main div{
-  padding: 1%;
+main div {
+    padding: 1%;
 }
 
+
 /* ---------------- */
+
+
 /* Nova versió */
+
 .main-product-detail {
-  position: relative;
-  width: 100%;
-  min-width: 250px;
-  height: auto;
-  padding: 0.5%;
-  /* temporal */
-  background-color: lightseagreen;
+    position: relative;
+    width: 100%;
+    min-width: 250px;
+    height: auto;
+    padding: 0.5%;
+    /* temporal 
+    background-color: lightseagreen;*/
 }
 
 .product-detail--card {
-  width: 100%;
-  min-width: 250px;
-  max-width: 98%;
-  min-height: 150px;
-  margin: 0.5%;
-  border: solid 0.2rem var(--dark-red);
-  padding: 0.5%;
-  /* temporal */
-  background-color: lightgray;
+    width: 100%;
+    min-width: 250px;
+    max-width: 98%;
+    min-height: 150px;
+    margin: 0.5%;
+    border: solid 0.2rem var(--dark-red);
+    padding: 0.5%;
+    /* temporal */
+    background-color: lightgray;
 }
 
+
 /* ----------------- */
+
+
 /*
 .oferta-dia {
   display: flex;
   flex-wrap: wrap;
 }
 */
+
+
 /*
 .oferta-setmana {
   display: flex;
   flex-wrap: wrap;
 }
 */
+
+
 /*
 .recepta-temp{
   display: flex;
 }
 */
-.of-dia, .of-setmana {
-  display:inline-block;
-  max-width: 49%;
-  /*justify-content: center;*/
-  vertical-align: top;
- 
-  padding: 0.5%;
-  margin: 0.5% auto;
+
+.of-dia,
+.of-setmana {
+    display: inline-block;
+    max-width: 49%;
+    vertical-align: top;
+    padding: 0.5%;
+    margin: 0.5% auto;
 }
+
 .images {
-  width: 100%;
+    width: 100%;
 }
 
 .images:hover {
-  transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 input[type="checkbox"] {
-  display: none;
+    display: none;
 }
 
 .calendari-fruita img {
-  margin: 1%;
-  width: 80%;
-  transition: transform 0.25s ease;
-  cursor: zoom-in;
+    margin: 1%;
+    width: 80%;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
 }
 
-input[type="checkbox"]:checked ~ label > img {
-  transform: scale(3);
-  cursor: zoom-out;
+input[type="checkbox"]:checked~label>img {
+    transform: scale(3);
+    cursor: zoom-out;
 }
 
-.img-rs{
-  margin: 1%;
-  max-width: 30px;
+.img-rs {
+    margin: 1%;
+    max-width: 30px;
 }
 
 #calendariImg {
-  width: 56%;
+    width: 56%;
 }
