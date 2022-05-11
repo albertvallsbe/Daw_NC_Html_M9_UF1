@@ -18,12 +18,13 @@ html {
 }
 /* --- FONT SIZE --- */
 h3 {
-  font-size: 2.5rem;
-  padding: 1rem;
+  font-size: 2rem;
+  padding-top: 1rem;
+  font-family: "Tahoma", sans-serif;
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding: .2rem;
 }
 
@@ -167,9 +168,12 @@ input[type="checkbox"]:checked~label>img {
 .resum {
   width: 49%;
   display: inline-block;
-    width: 56%;
 }
 
 .ingredients {
     padding-left: 50px;
 }
+
+/* video{
+    width: 100%;
+} */
