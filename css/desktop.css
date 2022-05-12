@@ -56,3 +56,15 @@
 .ingredients {
   padding-left: 50px;
 }
+
+video{
+  width: 100%;
+}
+
+.recipe-detail--card {
+  width: 100%;
+  padding: 0.5%;
+  margin: 0.5%;
+  background-color: lightpink;
+  display: inline-flex;
+}

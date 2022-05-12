@@ -23,6 +23,7 @@ h3 {
   font-family: "Tahoma", sans-serif;
 }
 
+li,
 p{
   font-size: 1.6rem;
   padding: .2rem;
@@ -95,6 +96,7 @@ main div {
     background-color: lightseagreen;*/
 }
 
+.recipe-detail--card,
 .product-detail--card {
     width: 100%;
     min-width: 250px;
@@ -147,6 +149,7 @@ input[type="checkbox"]:checked~label>img {
   cursor: zoom-in;
 }
 
+.receptaCompleta,
 .recepta,
 .verdura,
 .fruita{
@@ -174,6 +177,6 @@ input[type="checkbox"]:checked~label>img {
     padding-left: 50px;
 }
 
-/* video{
+video{
     width: 100%;
-} */
+}
