@@ -92,8 +92,6 @@ main div {
     min-width: 250px;
     height: auto;
     padding: 0.5%;
-    /* temporal 
-    background-color: lightseagreen;*/
 }
 
 .recipe-detail--card,
@@ -105,8 +103,6 @@ main div {
     margin: 0.5%;
     border: solid 0.2rem var(--dark-red);
     padding: 0.5%;
-    /* temporal */
-    background-color: lightgray;
 }
 
 
@@ -163,8 +159,6 @@ input[type="checkbox"]:checked~label>img {
   margin: 0.5%;
   border: solid 0.2rem var(--dark-red);
   padding: 0.5%;
-  /* temporal */
-  background-color: lightgray;
 }
 
 .receptes,
