@@ -16,17 +16,18 @@ html {
     font-size: 62.5%;
     font-family: "Calibri", "DM Sans", sans-serif;
 }
+
 /* --- FONT SIZE --- */
 h3 {
-  font-size: 2rem;
-  padding-top: 1rem;
-  font-family: "Tahoma", sans-serif;
+    font-size: 2.3rem;
+    padding-top: 1rem;
+    font-family: "Tahoma", sans-serif;
 }
 
 li,
-p{
-  font-size: 1.6rem;
-  padding: .2rem;
+p {
+    font-size: 2rem;
+    padding: .2rem;
 }
 
 /* ---- */
@@ -69,14 +70,14 @@ footer {
 }
 
 .menu-buttons {
-  margin: 2px;
-  align-items: center;
-  background-color: var(--light-green);
-  color: var(--white);
-  border-color: var(--dark-red);
-  border-radius: 2rem;
-  font-size: 1.5rem;
-  padding: 0.6% 3%;
+    margin: 2px;
+    align-items: center;
+    background-color: var(--light-green);
+    color: var(--white);
+    border-color: var(--dark-red);
+    border-radius: 2rem;
+    font-size: 1.7rem;
+    padding: 0.6% 3%;
 }
 
 main div {
@@ -108,12 +109,15 @@ main div {
 
 /* ----------------- */
 
-.fruites, .verdures, .of-dia, .of-setmana {
-  display:inline-block;
-  max-width: 49%;
-  vertical-align: top;
-  padding: 0.5%;
-  margin: 0.5% auto;
+.fruites,
+.verdures,
+.of-dia,
+.of-setmana {
+    display: inline-block;
+    max-width: 49%;
+    vertical-align: top;
+    padding: 0.5%;
+    margin: 0.5% auto;
 }
 
 .images {
@@ -139,38 +143,55 @@ input[type="checkbox"]:checked~label>img {
 }
 
 #calendariImg {
-  width: 56%;
-  margin: 1%;
-  transition: transform 0.25s ease;
-  cursor: zoom-in;
+    width: 56%;
+    margin: 1%;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
 }
 
 .receptaCompleta,
 .recepta,
 .verdura,
-.fruita{
-  width: 100%;
+.fruita {
+    width: 100%;
 }
 
 .indexReceptes--card,
 .verdures--card,
 .fruites--card {
-  width: 100%;
-  margin: 0.5%;
-  border: solid 0.2rem var(--dark-red);
-  padding: 0.5%;
+    width: 100%;
+    margin: 0.5%;
+    border: solid 0.2rem var(--dark-red);
+    padding: 0.5%;
+}
+
+.recepta-content {
+    width: 100%;
 }
 
 .receptes,
 .resum {
-  width: 49%;
-  display: inline-block;
+    width: 100%;
 }
 
 .ingredients {
     padding-left: 50px;
 }
 
-video{
+video {
     width: 100%;
+}
+
+.imgqui {
+    width: 70%;
+}
+
+@media (min-width: 576px) {
+
+    .receptes,
+    .resum {
+        width: 49%;
+        display: inline-block;
+    }
+
 }

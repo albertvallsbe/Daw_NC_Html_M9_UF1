@@ -19,11 +19,12 @@
   padding: 0%;
   margin: 0%;
 }
+
 .product-cards--container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  
+
   padding: 0.5%;
   margin: none;
   justify-content: center;
@@ -37,7 +38,8 @@
   margin: 0.5%;
 }
 
-.fruites, .verdures {
+.fruites,
+.verdures {
   max-width: 24%;
 }
 
@@ -51,7 +53,7 @@
   padding-left: 50px;
 }
 
-video{
+video {
   width: 100%;
 }
 
@@ -60,4 +62,16 @@ video{
   padding: 0.5%;
   margin: 0.5%;
   display: inline-flex;
+}
+
+.recepta-content {
+  width: 49%;
+}
+
+.recepta-index {
+  display: flex;
+}
+
+.imgqui {
+  padding: 2%;
 }
