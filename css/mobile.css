@@ -17,7 +17,9 @@ html {
     font-family: "Calibri", "DM Sans", sans-serif;
 }
 
+
 /* --- FONT SIZE --- */
+
 h3 {
     font-size: 2.3rem;
     padding-top: 1rem;
@@ -29,6 +31,7 @@ p {
     font-size: 2rem;
     padding: .2rem;
 }
+
 
 /* ---- */
 
@@ -64,7 +67,8 @@ footer {
     max-height: 30px;
 }
 
-.header-menu div input {
+.header-menu div input,
+.header-menu div a {
     align-items: center;
     min-width: 90px;
 }
@@ -187,11 +191,9 @@ video {
 }
 
 @media (min-width: 576px) {
-
     .receptes,
     .resum {
         width: 49%;
         display: inline-block;
     }
-
 }
